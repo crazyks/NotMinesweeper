@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/debug"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:visibility="visible" >
+
+    <TextView
+        android:id="@+id/mode_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Mode: "
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/mode_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mode_tag"
+        android:layout_toRightOf="@+id/mode_tag"
+        android:text="NA"
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/round_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mode_info"
+        android:text="Total Rounds: "
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/round_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/round_tag"
+        android:layout_toRightOf="@+id/round_tag"
+        android:text="NA"
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/enhanced_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/round_info"
+        android:text="Enhanced: "
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/enhanced_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/enhanced_tag"
+        android:layout_toRightOf="@+id/enhanced_tag"
+        android:text="NA"
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/mark_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enhanced_info"
+        android:text="Mark &amp; Solve: "
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/mark_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mark_tag"
+        android:layout_toRightOf="@+id/mark_tag"
+        android:text="NA"
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/sep_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mark_info"
+        android:text=""
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/current_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sep_tag"
+        android:text="Current Round: "
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/current_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/current_tag"
+        android:layout_toRightOf="@+id/current_tag"
+        android:text="NA"
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/centersolv_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/current_info"
+        android:text="Center Solved: "
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/centersolv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/centersolv_tag"
+        android:layout_toRightOf="@+id/centersolv_tag"
+        android:text="NA"
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/boardsolv_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/centersolv_info"
+        android:text="Board Solved: "
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/boardsolv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/boardsolv_tag"
+        android:layout_toRightOf="@+id/boardsolv_tag"
+        android:text="NA"
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/unsolvedblks_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boardsolv_info"
+        android:text="Unsolved Blocks: "
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/unsolvedblks_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/unsolvedblks_tag"
+        android:layout_toRightOf="@+id/unsolvedblks_tag"
+        android:text="NA"
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/userchoice_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unsolvedblks_info"
+        android:text="User Choice: "
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/userchoice_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/userchoice_tag"
+        android:layout_toRightOf="@+id/userchoice_tag"
+        android:text="NA"
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/usermark_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userchoice_info"
+        android:text="User Mark: "
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/usermark_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/usermark_tag"
+        android:layout_toRightOf="@+id/usermark_tag"
+        android:text="NA"
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/right_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usermark_info"
+        android:text="Correct Counter: "
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/right_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/right_tag"
+        android:layout_toRightOf="@+id/right_tag"
+        android:text="NA"
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/wrong_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/right_info"
+        android:text="Wrong Counter: "
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/wrong_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/wrong_tag"
+        android:layout_toRightOf="@+id/wrong_tag"
+        android:text="NA"
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/missed_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wrong_info"
+        android:text="Missed Counter: "
+        android:textColor="#FFFF0000" />
+
+    <TextView
+        android:id="@+id/missed_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/missed_tag"
+        android:layout_toRightOf="@+id/missed_tag"
+        android:text="NA"
+        android:textColor="#FFFF0000" />
+
+</RelativeLayout>
